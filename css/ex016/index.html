@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fontes com google fontes</title>
+    <title>Fontes externas</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
-        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        @font-face {
+            font-family: larry ;
+            src: url('fontes/Filxgirl.TTF') format('truetype'), url('fontes/Filxgirl.TTF');
+            font-weight: normal;
+            font-style: normal;
+            /*
+                Tipos de format 
+                - opentype (otf)
+                -truetype (ttf)
+                -embedded-opentype
+                -truetype-aat(aplle Advanced Typography)
+                svg
+            */
+        }
         body {
-            font-family:"Work Sans",cursive, Arial, Verdana, sans-serif;
-            font-size: 16px;
-            color: black;
+            font-family: Arial,Helvetica, sans-serif;
         }
         h1 {
-            font-family: "kaushan Script", cursive;
+            font-family: larry, 'Times New Roman', Times, serif;
             font-size: 3em;
-
-        }
-        h2 {
-            font-family: "kaushan Script", cursive;
-            font-size: 2em;
         }
     </style>
 </head>
 <body>
-    <h1>Titulo</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ullam nihil totam dolores, fuga dolorem vero optio nostrum, harum earum, doloremque dolor explicabo laborum suscipit minus amet. Nemo, facere odit?</p>
-    <h2>Sub titulo</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque, reprehenderit fugiat esse excepturi tempore numquam eveniet nihil ipsam sed, repudiandae iure perspiciatis, pariatur incidunt minus! Dolor, tempore! Cumque, totam?</p>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus illum qui harum velit ex aspernatur est corrupti iure, eos unde sequi aut praesentium libero eveniet, itaque nemo facere fuga? Consequuntur.</p>
+
 </body>
 </html>
