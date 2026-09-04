@@ -22,3 +22,13 @@ p {
     Em HTML EH id = em CSS eh #
     Em Html eh class = em CSS eh .
 */
+
+.basico {
+    color: rgb(161, 161, 37);
+}
+.intermediario {
+    color:rgb(96, 197, 96);    
+}
+.avancado {
+    color: rgb(179, 29, 29);
+}
