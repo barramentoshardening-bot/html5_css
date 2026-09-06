@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo elementos</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: rgb(255, 1, 1);
+        }
+        a:hover {
+             text-decoration: underline;
+             color: black;
+        }
+        a:active {
+            color: yellow;
+        }
+        .especial::before {
+            content: '⇒';
+        }
+        .especial::after {
+            content: '⇐';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <li><a href="https://github.com/barramentoshardening-bot/Test" target="_blank">Para o gitHub</a></li>
+    <li><a href="https://www.youtube.com/" target="_blank " class="especial">para o youtube</a></li>
+    <li><a href="https://www.cursoemvideo.com/cursos/">Para o curso em video</a></li>
+</body>
+</html>
